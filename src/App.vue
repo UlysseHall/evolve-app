@@ -30,5 +30,6 @@ export default {
   @import 'assets/scss/login.scss';
   @import 'assets/scss/home.scss';
   @import 'assets/scss/profile.scss';
+  @import 'assets/scss/_header_patient.scss';
 </style>
 
