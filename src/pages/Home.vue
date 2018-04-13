@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    <h1>Home</h1>
+    <header>
+
+    </header>
   </div>
 </template>
 
@@ -11,5 +13,7 @@
 </script>
 
 <style lang="scss" rel="stylesheet/scss" scoped>
-
+  header {
+    background-color: #4353ff;
+  }
 </style>

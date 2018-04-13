@@ -11,6 +11,8 @@ export default new Vuex.Store({
   },
 
   mutations: {
-
+    changeUserAuth(state, auth) {
+      state.user.auth = auth;
+    }
   }
 });
