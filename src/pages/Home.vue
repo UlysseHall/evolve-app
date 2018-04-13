@@ -16,7 +16,7 @@
       <router-link v-for="patient in patients" :to="'/patient/'+patient.id" :key="patient.id">
         <div class="people">
           <div class="contain-img">
-            <img src="../assets/img/personne.png">
+            <img :src="avatar(patient.avatar)">
           </div>
           <div class="description">
             <p class="name">{{ patient.name }}</p>
@@ -34,13 +34,17 @@
 
     data() {
       return {
-        switchBtn: 'left',
+        switchBtn: 'left'
       }
     },
 
     methods: {
       toggleActive(side) {
         this.switchBtn = side
+      },
+
+      avatar(imageName) {
+        return require('../assets/img/' + imageName)
       }
     },
 
