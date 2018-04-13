@@ -28,5 +28,6 @@ export default {
   @import 'assets/scss/reset.scss';
   @import 'assets/scss/global.scss';
   @import 'assets/scss/login.scss';
+  @import 'assets/scss/home.scss';
 </style>
 

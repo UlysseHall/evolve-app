@@ -1,0 +1,27 @@
+.home {
+  header {
+    background-color: $blue;
+    color: #fff;
+    font-weight: 300;
+    padding: 10px;
+  }
+
+  .switch-btn {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #fff;
+    border-radius: 5px;
+
+    div {
+      flex: 1;
+      text-align: center;
+      padding: 5px;
+    }
+
+    .active {
+      background-color: #fff;
+      color: $blue;
+    }
+  }
+}
