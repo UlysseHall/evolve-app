@@ -87,54 +87,6 @@ header {
     }
 }
 
-.stats_glob {
-    width: 95%;
-    margin: 0 auto;
-    margin-top: 27px;
-
-
-    h3 {
-      text-transform: uppercase;
-    }
-
-    div {
-        white-space: nowrap;
-        overflow: auto;
-        margin-top: 25px;
-        height: auto;
-
-       div {
-           display: inline-block;
-           position: relative;
-           margin-left: 50px;
-           padding: 2px 0;
-           max-width: 110px;
-           width: 100%;
-
-           span {
-               position: absolute;
-               transform: translate(50%, -50%);
-               top: 50%;
-               left: 50;
-           }
-
-           img {
-               width: 100%;
-           }
-
-           p {
-               padding-top: 10px;
-               color: $blue;
-               font-size: 16px;
-               font-weight: 300;
-               text-align: center;
-               width: 100%;
-               white-space: normal;
-           }
-       }
-    }
-}
-
 .suivi {
 
     margin-top: 20px;

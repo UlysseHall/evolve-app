@@ -32,11 +32,11 @@
       <div>
         <div>
           <img src="../assets/img/circle_80.png" alt="">
-          <p>Confiance envers Ely</p>
+          <p>Confiance</p>
         </div>
         <div>
           <img src="../assets/img/circle_52.png" alt="">
-          <p>Amicales</p>
+          <p>Amicale</p>
           </div>
         <div>
           <img src="../assets/img/circle_17.png" alt="">

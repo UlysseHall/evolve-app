@@ -33,5 +33,6 @@ export default {
   @import 'assets/scss/_header_patient.scss';
   @import 'assets/scss/form.scss';
   @import 'assets/scss/addPatient.scss';
+  @import 'assets/scss/patientSession.scss';
 </style>
 

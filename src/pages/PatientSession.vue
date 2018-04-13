@@ -7,6 +7,63 @@
         <h1 class="patientProfileName">Séance du {{session.date}}</h1>
       </div>
     </header>
+
+      <div class="stats_glob">
+        <h2>Ressenti du  patient</h2>
+        <div>
+          <div>
+            <img src="../assets/img/circle_80.png" alt="">
+            <p>Amicale</p>
+          </div>
+          <div>
+            <img src="../assets/img/circle_52.png" alt="">
+            <p>Peur</p>
+            </div>
+          <div>
+            <img src="../assets/img/circle_17.png" alt="">
+            <p>Confiance</p>
+          </div>
+          <div>
+            <img src="../assets/img/circle_67.png" alt="">
+            <p>Progression</p>
+          </div>
+          <div>
+            <img src="../assets/img/circle_80.png" alt="">
+            <p>Émotions</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="rendu">
+        <h2>compte rendu textuel</h2>
+        <p>Grande progression pendant cette séance, la patiente a confiance en Ely.</p>
+      </div>
+
+      <div class="stats_glob">
+        <h2>Ressenti du robot envers le patient</h2>
+        <div>
+          <div>
+            <img src="../assets/img/circle_80.png" alt="">
+            <p>Amicale</p>
+          </div>
+          <div>
+            <img src="../assets/img/circle_52.png" alt="">
+            <p>Animosité</p>
+            </div>
+          <div>
+            <img src="../assets/img/circle_17.png" alt="">
+            <p>Peur</p>
+          </div>
+          <div>
+            <img src="../assets/img/circle_67.png" alt="">
+            <p>Progression</p>
+          </div>
+          <div>
+            <img src="../assets/img/circle_80.png" alt="">
+            <p>Émotions</p>
+          </div>
+        </div>
+    </div>
   </div>
 </template>
 
