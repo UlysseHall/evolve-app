@@ -36,7 +36,7 @@
 
       <div class="rendu">
         <h2>compte rendu textuel</h2>
-        <p>Grande progression pendant cette séance, la patiente a confiance en Ely.</p>
+        <p>{{session.txt}}</p>
       </div>
 
       <div class="stats_glob">
