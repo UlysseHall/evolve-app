@@ -39,19 +39,19 @@
         </div>
         <div>
           <img src="../assets/img/circle_52.png" alt="">
-          <p>Confiance envers Ely</p>
+          <p>Amicales</p>
           </div>
         <div>
           <img src="../assets/img/circle_17.png" alt="">
-          <p>Confiance envers Ely</p>
+          <p>Confiance</p>
         </div>
         <div>
           <img src="../assets/img/circle_67.png" alt="">
-          <p>Confiance envers Ely</p>
+          <p>Progression</p>
         </div>
         <div>
           <img src="../assets/img/circle_80.png" alt="">
-          <p>Confiance envers Ely</p>
+          <p>Émotions</p>
         </div>
       </div>
     </div>
