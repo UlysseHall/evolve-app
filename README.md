@@ -1,21 +1,22 @@
-# evolve
-
-> E-volve webapp for technophobes doctors
-
-## Build Setup
+# Commandes utiles
 
 ``` bash
-# install dependencies
+# installation des dépendances
 npm install
 
-# serve with hot reload at localhost:8080
+# commande pour compiler l'app à la volée (à lancer en dev), l'app est dispo à localhost:8080
 npm run dev
 
-# build for production with minification
+# commande pour compiler l'app finale
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# Routes
+
+* **/** : home
+* **/login** : login
+* **/register** : register
+* **/patient-new** : addPatient
+* **/patient/:id** : patient
+* **/patient/:id/profile** : patientProfile
+* **/patient/:id/session/:session-id** : patientSession
