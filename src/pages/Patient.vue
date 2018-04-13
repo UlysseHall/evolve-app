@@ -16,13 +16,10 @@
         <p>Séance {{ patient.sessionResume }}</p>
       </div>
     </div>
-    <div @click="showModal()" v-else="!patient.session_today">
-      Programmer le robot
-    </div>
 
-    <div class="launch_robot">
+    <div class="launch_robot" @click="showModal()" v-else="!patient.session_today">
       <div>
-        <a href="">
+        <a>
           <img src="../assets/img/robot_head.svg" alt="">
           <span>Programmer le robot</span>
           </a>
@@ -60,24 +57,12 @@
       <p class="confiance"><span>+ {{ patient.confiance }}% </span> de confiance en Ely</p>
 
       <div class="container-seance">
-        <a href="#">
+        <router-link :to="'/patient/'+patient.id+'/session/'+session.id" v-for="session in sessions" :key="session.id">
           <div class="seance">
-            <p class="date">12/11/18</p>
-            <p class="nbrSeance">2ème séance</p>
+            <p class="date">{{ session.date }}</p>
+            <p class="nbrSeance">{{ session.nb }} séance</p>
           </div>
-        </a>
-        <a href="#">
-          <div class="seance">
-            <p class="date">12/11/18</p>
-            <p class="nbrSeance">2ème séance</p>
-          </div>
-        </a>
-        <a href="#">
-          <div class="seance">
-            <p class="date">12/11/18</p>
-            <p class="nbrSeance">2ème séance</p>
-          </div>
-        </a>
+        </router-link>
       </div>
     </div>
 
@@ -103,6 +88,10 @@ export default {
           return patient;
         }
       }
+    },
+
+    sessions() {
+      return this.$store.state.sessions;
     }
   },
 

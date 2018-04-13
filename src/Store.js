@@ -84,6 +84,27 @@ export default new Vuex.Store({
         antecedent: 'Femme morte il y a 10ans , dans un accident de voiture',
         fear: 'Voitures autonomes, maisons autonomes.'
       }
+    ],
+
+    sessions: [
+      {
+        id: 1,
+        date: '19/11/18',
+        txt: 'Grande progression pendant cette séance, la patiente a confiance en Ely.',
+        nb: '2ème'
+      },
+      {
+        id: 2,
+        date: '28/11/18',
+        txt: 'Grande progression pendant cette séance, la patiente a confiance en Ely.',
+        nb: '3ème'
+      },
+      {
+        id: 3,
+        date: '12/12/18',
+        txt: 'Grande progression pendant cette séance, la patiente a confiance en Ely.',
+        nb: '4ème'
+      }
     ]
   },
 
