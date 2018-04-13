@@ -17,5 +17,7 @@ export default new VueRouter({
     { path: '/patient/:id/profile', component: PatientProfile, name: 'patientProfile', props: true },
     { path: '/patient/:id/session/:session-id', component: PatientSession, name: 'patientSession', props: true },
     { path: '/patient-new', component: AddPatient, name: 'addPatient', props: true },
-  ]
+  ],
+
+  mode: 'history'
 })
