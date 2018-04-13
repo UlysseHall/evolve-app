@@ -1,0 +1,40 @@
+.patientProfile {
+	padding: 16px 24px;
+	position: relative;
+	min-height: 100vh;
+
+	h2 {
+		font-family: $lato;
+		color: $grey2;
+		font-size: 12px;
+		font-weight: 700;
+		margin-bottom: 16px;
+	}
+
+	.coordonnees {
+		margin-bottom: 5px;
+	}
+
+	.pictos {
+		margin-bottom: 50px;
+	}
+
+	p {
+		font-family: $lato;
+		font-size: 16px;
+		margin-bottom: 48px;
+	}
+
+	button {
+		position: absolute;
+	  display: block;
+    background: $blue;
+    color: $white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: 20px;
+    bottom: 16px;
+    right: 16px;
+	}
+}

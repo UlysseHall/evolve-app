@@ -14,9 +14,12 @@ export default new Vuex.Store({
         name: 'clement',
       }
     ]
-  },
+  
+    },
 
   mutations: {
-
+    changeUserAuth(state, auth) {
+      state.user.auth = auth;
+    }
   }
 });

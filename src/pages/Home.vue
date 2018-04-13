@@ -1,12 +1,29 @@
 <template>
   <div class="home">
-    <h1>Home</h1>
+    <header>
+      <div class="switch-btn">
+        <div :class="{active: isActive}" @click="toggleActive">Suivi patients</div>
+        <div :class="{active: isActive}">Archive patients</div>
+      </div>
+    </header>
   </div>
 </template>
 
 <script>
   export default {
-    name: 'Home'
+    name: 'Home',
+
+    data() {
+      return {
+        isActive: false
+      }
+    },
+
+    methods: {
+      toggleActive() {
+        this.isActive = !this.isActive
+      }
+    }
   }
 </script>
 
