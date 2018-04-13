@@ -1,14 +1,16 @@
 <template>
   <div class="patient">
-    <h1>Patient, <br>id: {{id}}</h1>
+    <h1>Patient, <br>id:</h1>
   </div>
+  
 </template>
 
 <script>
 export default {
   name: 'Patient',
 
-  props: ['id']
+  props: ['id'],
+
 }
 </script>
 
