@@ -2,18 +2,18 @@
   <div class="login">
     <h1><img class="logo" src="../assets/img/logo.svg"></h1>
 
-    <form action="">
+    <form @submit.prevent="submitForm">
       <div>
           <label for="">IDENTIFIANT</label>
-          <input type="text" placeholder="Dupont">
+          <input type="text" placeholder="Dupont" required>
       </div>
 
       <div>
           <label for="">MOT DE PASSe</label>
-          <input type="text" placeholder="Marc">
+          <input type="text" placeholder="Marc" required>
       </div>
 
-       <button>Connexion</button>
+       <input type="submit" value="Connexion">
 
        <a href="#" class="forget">Mot de passe oublié ?</a>
   </form>
@@ -22,7 +22,14 @@
 
 <script>
 export default {
-  name: 'Login'
+  name: 'Login',
+
+  methods: {
+    submitForm() {
+      this.$store.commit('changeUserAuth', true);
+      this.$router.push('/');
+    }
+  }
 }
 </script>
 
