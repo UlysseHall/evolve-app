@@ -24,4 +24,65 @@
       color: $blue;
     }
   }
+
+  .search {
+    display: flex;
+    align-items: center;
+    padding: 11px 0;
+    border-bottom: 1px solid $grey2;
+
+    img {
+      margin: 0 16px;
+    }
+
+    input {
+      font-size: 14px;
+    }
+  }
+
+  .contain-peoples {
+    .people {
+      display: flex;
+      padding: 21px 16px;
+      border-bottom: 1px solid $grey2;
+
+      .contain-img {
+        width: 67px;
+
+        img {
+          width: 51px;
+        }     
+      }
+
+      .description {
+        width: 90%;
+        position: relative;
+
+        &:after {
+          content:'';
+          position: absolute;
+          background-image: url('assets/img/arrow.svg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 7px;
+          height: 12px;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        .name {
+          font-size: 16px;
+          margin-top: 4px;
+          margin-bottom: 10px;
+        }
+
+        .seance {
+          color: $blue;
+          font-size: 12px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
 }
