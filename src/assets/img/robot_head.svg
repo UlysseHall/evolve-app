@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="18px" viewBox="0 0 24 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>robot</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="12.0337726" cy="9.00528169" rx="11.641367" ry="8.87663481"></ellipse>
+        <filter x="-8.6%" y="-11.3%" width="117.2%" height="122.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-1" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0786911232 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="50%" x2="53.0552535%" y2="-40.0172004%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0.294966462,9.44722429 C0.534931763,9.44722429 0.984515363,7.90771854 1.81546974,6.54267675 C2.35561675,5.65535578 3.21897765,4.84775878 3.73723434,4.5641409 C5.05276965,3.84420935 6.40399808,3.70186606 7.62282961,4.01858809 C8.84166113,4.33531012 9.99030877,5.56547086 11.4833836,5.56547086 C12.9764584,5.56547086 14.8260647,4.33531012 15.5087211,4.01858809 C16.1913775,3.70186606 17.9202562,3.42744242 19.3967576,4.33531012 C19.9783781,4.69293556 21.1839028,5.41075375 21.8580588,6.35819184 C22.8953146,7.81591944 23.3565124,9.56807533 23.6638844,9.44722429 C24.1710303,9.24782711 23.4861923,5.4526064 21.330601,3.57497092 C19.1750096,1.69733544 16.0096994,0.0681255836 11.8757892,0.0681255836 C7.74187898,0.0681255836 4.84803982,1.78093025 3.96335287,2.50162369 C3.07866592,3.22231714 2.19941066,3.88804117 1.19974556,5.78077375 C0.200080467,7.67350634 -0.100983983,9.44722429 0.294966462,9.44722429 Z" id="path-4"></path>
+        <filter x="-2.1%" y="-5.3%" width="104.2%" height="110.7%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.208652211   0 0 0 0 0.208652211   0 0 0 0 0.208652211  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="04.-détail-patient-le-jour-de-la-séance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-47.000000, -93.000000)">
+        <g id="Group-3" transform="translate(23.000000, 78.000000)">
+            <g id="Group-2">
+                <g id="Group" transform="translate(24.000000, 14.000000)">
+                    <g id="robot" transform="translate(0.000000, 1.000000)">
+                        <g id="Oval-5">
+                            <use fill="#F8F8F8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        </g>
+                        <ellipse id="Oval" fill="#494646" cx="15.6308242" cy="8.42637072" rx="1.24261782" ry="1.22214537"></ellipse>
+                        <ellipse id="Oval" fill="#494646" cx="6.99790038" cy="8.42637072" rx="1.24261782" ry="1.22214537"></ellipse>
+                        <g id="Path-4">
+                            <use fill="#4353FF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

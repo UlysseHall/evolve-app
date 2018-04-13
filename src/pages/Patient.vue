@@ -17,6 +17,16 @@
       </div>
     </div>
 
+    <div class="launch_robot">
+      <div>
+        <a href="">
+          <img src="../assets/img/robot_head.svg" alt="">
+          <span>Programmer le robot</span>
+          </a>
+      </div>
+    </div>
+
+
     <div class="stats_glob">
       <h3>statistiques globales</h3>
       <div>
