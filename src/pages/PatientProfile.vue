@@ -4,7 +4,7 @@
     <div class="pictos">
 	    <a href="tel:03030303"><img src="../assets/img/phone.svg"></a>
 	    <a href="mailto:r@gmail.com"><img src="../assets/img/mail.svg"></a>
-	    <a href=""><img src="../assets/img/map.svg"></a>	
+	    <a href=""><img src="../assets/img/map.svg"></a>
     </div>
 
     <h2>ANTÉCÉDENTS</h2>
@@ -21,7 +21,19 @@
 export default {
   name: 'PatientProfile',
 
-  props: ['id']
+  props: ['id'],
+
+  computed: {
+    patient() {
+      let patients = this.$store.state.patients;
+
+      for(let patient of patients) {
+        if(patient.id === parseInt(this.id)) {
+          return patient;
+        }
+      }
+    }
+  }
 }
 </script>
 
