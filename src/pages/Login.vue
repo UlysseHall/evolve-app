@@ -27,7 +27,7 @@ export default {
   methods: {
     submitForm() {
       this.$store.commit('changeUserAuth', true);
-      this.$router.push('home');
+      this.$router.push('/');
     }
   }
 }
