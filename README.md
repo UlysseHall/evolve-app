@@ -23,7 +23,7 @@ npm run build
 
 # Vue
 
-* Pour créer un lien vers une page : **<router-link to="/patient-new">Ajouter un patient</router-link>**
+* Pour créer un lien vers une page : **< router-link to="/patient-new" >Ajouter un patient< /router-link >**
   (génère un < a >)
   
 * Pour afficher une props ou une data : **{{ nomDeLaProp }}**
