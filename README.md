@@ -20,3 +20,12 @@ npm run build
 * **/patient/:id** : patient
 * **/patient/:id/profile** : patientProfile
 * **/patient/:id/session/:session-id** : patientSession
+
+# Vue
+
+* Pour créer un lien vers une page : **<router-link to="/patient-new">Ajouter un patient</router-link>**
+  (génère un < a >)
+  
+* Pour afficher une props ou une data : **{{ nomDeLaProp }}**
+
+* Le lien des assets se fait de manière traditionnelle : **src="../assets/img/logo.png"**
