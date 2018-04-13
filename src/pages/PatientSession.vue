@@ -8,7 +8,19 @@
 export default {
   name: 'PatientSession',
 
-  props: ['id', 'session-id']
+  props: ['id', 'session-id'],
+
+  computed: {
+    patient() {
+      let patients = this.$store.state.patients;
+
+      for(let patient of patients) {
+        if(patient.id === parseInt(this.id)) {
+          return patient;
+        }
+      }
+    }
+  }
 }
 </script>
 

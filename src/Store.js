@@ -11,7 +11,8 @@ export default new Vuex.Store({
     patients: [
       {
         id: 1,
-        name: 'clement',
+        name: 'Aira Julie',
+        next_session: '18/02/2418'
       }
     ]
   
