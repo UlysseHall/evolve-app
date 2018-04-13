@@ -5,7 +5,8 @@ body {
 
 #app {
   max-width: 600px;
-  min-height: 568px;
+  min-height: 100vh;
+  height: 100%;
   margin: 0 auto;
   background: white;
 }
