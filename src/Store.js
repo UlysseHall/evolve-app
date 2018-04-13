@@ -12,6 +12,7 @@ export default new Vuex.Store({
       {
         id: 1,
         next_session: '18/02/2418',
+        session_today: true,
         name: 'Basser Philippine',
         avatar: 'philippine.jpg',
         nbNextSessions: 2,
@@ -23,6 +24,8 @@ export default new Vuex.Store({
       },
       {
         id: 2,
+        next_session: '18/02/2418',
+        session_today: false,
         name: 'Charrier Léa',
         avatar: 'lea.jpg',
         nbNextSessions: 4,
@@ -34,6 +37,8 @@ export default new Vuex.Store({
       },
       {
         id: 3,
+        next_session: '18/02/2418',
+        session_today: false,
         name: 'Hall Ulysse',
         avatar: 'ulysse.jpg',
         nbNextSessions: 1,
@@ -45,6 +50,8 @@ export default new Vuex.Store({
       },
       {
         id: 4,
+        next_session: '18/02/2418',
+        session_today: false,
         name: 'Picot Clément',
         avatar: 'clement.jpg',
         nbNextSessions: 99,
@@ -56,6 +63,8 @@ export default new Vuex.Store({
       },
       {
         id: 4,
+        next_session: '18/02/2418',
+        session_today: false,
         name: 'Aira Julie',
         avatar: 'personne.png',
         nbNextSessions: 12,

@@ -10,11 +10,14 @@
       </div>
     </header>
 
-    <div class="next_session">
+    <div class="next_session" v-if="!patient.session_today">
       <div>
         <h2>Prochaine séance le {{patient.next_session}} </h2>
         <p>Séance 12 sur 15</p>
       </div>
+    </div>
+    <div @click="showModal()" v-else="!patient.session_today">
+      Programmer le robot
     </div>
 
     <div class="launch_robot">
@@ -59,24 +62,28 @@
       <div class="container-seance">
         <a href="#">
           <div class="seance">
-            <p class="date">12/11/18</p> 
-            <p class="nbrSeance">2ème séance</p> 
+            <p class="date">12/11/18</p>
+            <p class="nbrSeance">2ème séance</p>
           </div>
         </a>
         <a href="#">
           <div class="seance">
-            <p class="date">12/11/18</p> 
-            <p class="nbrSeance">2ème séance</p> 
+            <p class="date">12/11/18</p>
+            <p class="nbrSeance">2ème séance</p>
           </div>
         </a>
         <a href="#">
           <div class="seance">
-            <p class="date">12/11/18</p> 
-            <p class="nbrSeance">2ème séance</p> 
+            <p class="date">12/11/18</p>
+            <p class="nbrSeance">2ème séance</p>
           </div>
         </a>
       </div>
     </div>
+
+    <modal name="launch-session" :adaptive="true" :pivotY="0.2">
+      <p>Aller débrouille toi avec ça Charrier !</p>
+    </modal>
 
   </div>
 </template>
@@ -96,6 +103,12 @@ export default {
           return patient;
         }
       }
+    }
+  },
+
+  methods: {
+    showModal() {
+      this.$modal.show('launch-session');
     }
   }
 }
