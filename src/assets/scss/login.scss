@@ -1,0 +1,90 @@
+.login {
+  .logo {
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0 60px;
+    width: 56px;
+  }
+
+  form {
+    width: 100%;
+    div {
+      padding: 20px 0;
+
+      label {
+        display: block;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: $lato;
+        font-weight: 500;
+        color: $blue;
+        padding: 5px 0;
+      }
+
+      output {
+        font-weight: 900;
+      }
+
+      input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid rgba($blue, .5);
+        padding: 5px 0;
+        font-size: 18px;
+        color: $blue;
+        font-family: $lato;
+
+        &::placeholder {
+          font-size: 18px;
+          font-family: $lato;
+          font-weight: 300;
+        }
+
+        &[name=getValue] {
+          border: none;
+        }
+
+        &[type=range] {
+          height: 1px;
+          border: none;
+          -webkit-appearance: none;
+
+          &:focus {
+              outline: none;
+          }
+
+          // Bouton range
+          &::-webkit-slider-thumb {
+              -webkit-appearance: none;
+              background: $blue;
+              width: 15px;
+              height: 15px;
+              border-radius: 50%;
+              opacity: 1;
+              margin-top: -6px;
+          }
+
+          &::-moz-range-thumb {
+              background: $blue;
+              width: 15px;
+              height: 15px;
+              border-radius: 50%;
+              opacity: 1;
+              margin-top: -6px;
+          }
+
+
+          // Ligne de sélection
+          &::-webkit-slider-runnable-track {
+              background: rgba($blue, .5);
+              height: 1px;
+          }
+          
+          &::-moz-range-track {
+              height: 1px;
+          }
+        }
+      }
+    }
+  }
+}
