@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="52px" viewBox="0 0 43 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-26.7963015%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#98ACFF" offset="0%"></stop>
+            <stop stop-color="#4353FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="00.-Login" transform="translate(-139.000000, -53.000000)" fill="url(#linearGradient-1)">
+            <g id="logo" transform="translate(133.000000, 51.000000)">
+                <g id="Group" transform="translate(28.130475, 27.839373) rotate(136.000000) translate(-28.130475, -27.839373) translate(8.630475, 8.839373)">
+                    <path d="M21.0975531,39.8464532 C23.1981958,39.8464532 28.4431054,39.8464532 36.832282,39.8464532 C18.5552173,39.8464532 18.6614393,23.853501 18.6614393,18.5597228 C18.6614393,13.6167094 19.2240939,3.52307823 5.00335751,3.52307823 C4.64389562,10.2547538 4.51436344,15.1434257 4.61476098,18.1890939 C4.71861839,21.3397208 4.61476098,24.9560653 5.00335751,26.817582 C7.1815765,37.2520318 11.2100833,39.8464532 21.0975531,39.8464532 Z" id="Oval-Copy-25" transform="translate(20.707082, 21.684766) rotate(-90.000000) translate(-20.707082, -21.684766) "></path>
+                    <path d="M19.3336129,34.6726098 C21.4342556,34.6726098 26.6791652,34.6726098 35.0683418,34.6726098 C16.791277,34.6726098 16.8974991,18.6796576 16.8974991,13.3858793 C16.8974991,8.44286591 17.4601537,-1.65076523 3.2394173,-1.65076523 C2.87995541,5.08091031 2.75042323,9.9695822 2.85082077,13.0152504 C2.95467817,16.1658774 2.85082077,19.7822219 3.2394173,21.6437385 C5.41763629,32.0781883 9.44614311,34.6726098 19.3336129,34.6726098 Z" id="Oval-Copy-25" transform="translate(18.943142, 16.510922) rotate(90.000000) translate(-18.943142, -16.510922) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

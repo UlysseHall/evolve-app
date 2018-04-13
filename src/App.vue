@@ -23,6 +23,9 @@ export default {
 </script>
 
 <style lang="scss" rel="stylesheet/scss">
+  @import 'assets/scss/font.scss';
+  @import 'assets/scss/variable.scss';
+  @import 'assets/scss/reset.scss';
   @import 'assets/scss/global.scss';
 </style>
 
