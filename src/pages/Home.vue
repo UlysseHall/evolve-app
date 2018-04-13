@@ -5,6 +5,10 @@
         <div :class="{active: isActive}" @click="toggleActive">Suivi patients</div>
         <div :class="{active: isActive}">Archive patients</div>
       </div>
+
+      <div>
+        
+      </div>
     </header>
   </div>
 </template>
