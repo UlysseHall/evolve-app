@@ -1,7 +1,10 @@
 .patientProfile {
-	padding: 16px 24px;
 	position: relative;
 	min-height: 100vh;
+
+  .patientProfileContainer {
+    padding: 16px 24px;
+  }
 
 	h2 {
 		font-family: $lato;

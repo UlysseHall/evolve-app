@@ -2,18 +2,18 @@
   <div class="patient">
     <header>
       <div class="info_nav">
-        <div class="back"><a href=""><img src="../assets/img/back.svg" alt=""></a></div>
+        <div class="back"><router-link :to="'/'"><img src="../assets/img/back.svg" alt=""></router-link></div>
 
         <h1>{{patient.name}}</h1>
 
-        <div class="informations"><a href=""><img src="../assets/img/info.svg" alt=""></a></div>
+        <div class="informations"><router-link :to="'/patient/'+patient.id+'/profile'"><img src="../assets/img/info.svg" alt=""></router-link></div>
       </div>
     </header>
 
     <div class="next_session" v-if="!patient.session_today">
       <div>
         <h2>Prochaine séance le {{patient.next_session}} </h2>
-        <p>Séance 12 sur 15</p>
+        <p>Séance {{ patient.sessionResume }}</p>
       </div>
     </div>
     <div @click="showModal()" v-else="!patient.session_today">
@@ -47,7 +47,7 @@
     </div>
 
     <div class="suivi">
-      <p class="confiance"><span>+ 60% </span> de confiance en Ely</p>
+      <p class="confiance"><span>+ {{ patient.confiance }}% </span> de confiance en Ely</p>
 
       <div class="container-seance">
         <a href="#">

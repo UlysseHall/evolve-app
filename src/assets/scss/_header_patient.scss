@@ -1,7 +1,7 @@
 header {
     height: 50px;
     background-color: $blue;
-    
+
     .info_nav {
         height: 50px;
         display: flex;
@@ -9,19 +9,24 @@ header {
         align-items: center;
         width: 90%;
         margin: 0 auto;
-        
+
         h1 {
             color: $white;
             font-size: 12px;
             font-weight: 700;
             text-transform: uppercase;
         }
-        
+
         div {
             img {
                 width: 20px;
             }
         }
+
+      .patientProfileName {
+        text-align: center;
+        flex: 1;
+      }
     }
 }
 
@@ -32,7 +37,7 @@ header {
     margin: 0 auto;
     padding: 14px 0;
     margin-top: 8px;
-    
+
     div {
         display: flex;
         flex-direction: column;
@@ -40,12 +45,12 @@ header {
         margin: 0 auto;
         justify-content: center;
         align-items: flex-start;
-        
+
         h2 {
             font-size: 18px;
             font-weight: 300;
         }
-        
+
         p {
             color: $blue;
             font-size: 14px;
@@ -78,7 +83,7 @@ header {
            padding: 2px 0;
            max-width: 110px;
            width: 100%;
-           
+
            span {
                position: absolute;
                transform: translate(50%, -50%);
