@@ -7,8 +7,15 @@ export default new Vuex.Store({
   state: {
     user: {
       auth: true
-    }
-  },
+    },
+    patients: [
+      {
+        id: 1,
+        name: 'clement',
+      }
+    ]
+  
+    },
 
   mutations: {
     changeUserAuth(state, auth) {
