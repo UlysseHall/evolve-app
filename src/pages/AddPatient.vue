@@ -2,7 +2,7 @@
   <div class="addPatient">
     <h1>Ajouter un patient</h1>
 
-    <form>
+    <form @submit.prevent="formSubmit()">
       <div>
           <label for="">NOM</label>
           <input type="text" placeholder="Dupont" required>
@@ -27,7 +27,13 @@
 export default {
   name: 'AddPatient',
 
-  props: ['id', 'session']
+  props: ['id', 'session'],
+
+  methods: {
+    formSubmit() {
+      this.$router.push('/')
+    }
+  }
 }
 </script>
 

@@ -26,7 +26,7 @@
       </router-link>
     </div>
 
-    <button>+</button>
+    <router-link class="add-patient-btn" :to="'/patient-new'">+</router-link>
   </div>
 </template>
 
