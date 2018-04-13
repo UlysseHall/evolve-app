@@ -67,7 +67,14 @@
     </div>
 
     <modal name="launch-session" :adaptive="true" :pivotY="0.2">
-      <p>Aller débrouille toi avec ça Charrier !</p>
+      <p>Quelle forme voulez-vous que Ely doit  prendre pour cette séance ?</p>
+
+      <img src="../assets/img/car.svg">
+      <img class="img-robot" src="../assets/img/robot1.svg">
+
+      <div class="program-robot" @click="$modal.hide('launch-session')">
+        Programmer le robot
+      </div>
     </modal>
 
   </div>
