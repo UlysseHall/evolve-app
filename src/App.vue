@@ -29,5 +29,6 @@ export default {
   @import 'assets/scss/global.scss';
   @import 'assets/scss/login.scss';
   @import 'assets/scss/home.scss';
+  @import 'assets/scss/profile.scss';
 </style>
 
