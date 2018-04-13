@@ -1,6 +1,25 @@
 <template>
   <div class="addPatient">
-    <h1>Add Patient</h1>
+    <h1>Ajouter un patient</h1>
+
+    <form>
+      <div>
+          <label for="">NOM</label>
+          <input type="text" placeholder="Dupont" required>
+      </div>
+
+      <div>
+          <label for="">PRENOM</label>
+          <input type="text" placeholder="Marc" required>
+      </div>
+
+      <div>
+          <label for="">AGE</label>
+          <input type="text" placeholder="22" required>
+      </div>
+
+       <input type="submit" value="Ajouter">
+  	</form>
   </div>
 </template>
 

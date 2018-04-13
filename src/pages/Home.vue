@@ -25,6 +25,8 @@
         </div>
       </router-link>
     </div>
+
+    <button>+</button>
   </div>
 </template>
 
