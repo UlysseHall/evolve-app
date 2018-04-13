@@ -13,7 +13,7 @@
     </div>
 
     <div class="contain-peoples">
-      <a href="#" v-for="patient in patients">
+      <router-link v-for="patient in patients" :to="'/patient/'+patient.id" :key="patient.id">
         <div class="people">
           <div class="contain-img">
             <img src="../assets/img/personne.png">
@@ -23,7 +23,7 @@
             <p class="seance">{{ patient.nbNextSessions }} séances</p>
           </div>
         </div>
-      </a>
+      </router-link>
     </div>
   </div>
 </template>
