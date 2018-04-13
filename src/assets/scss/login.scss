@@ -81,7 +81,7 @@
               background: rgba($blue, .5);
               height: 1px;
           }
-          
+
           &::-moz-range-track {
               height: 1px;
           }
@@ -89,7 +89,7 @@
       }
     }
 
-    button {
+    input[type=submit] {
       display: block;
       margin: 40px auto 0;
       background: $blue;

@@ -14,7 +14,6 @@ export default new Vuex.Store({
         name: 'clement',
       }
     ]
-  
     },
 
   mutations: {
