@@ -10,7 +10,7 @@ export default {
 
   created() {
     if(!this.user.auth) {
-      this.$router.push('login')
+      this.$router.push('/login')
     }
   },
 
