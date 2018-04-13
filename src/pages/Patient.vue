@@ -42,6 +42,32 @@
         </div>
       </div>
     </div>
+
+    <div class="suivi">
+      <p class="confiance"><span>+ 60% </span> de confiance en Ely</p>
+
+      <div class="container-seance">
+        <a href="#">
+          <div class="seance">
+            <p class="date">12/11/18</p> 
+            <p class="nbrSeance">2ème séance</p> 
+          </div>
+        </a>
+        <a href="#">
+          <div class="seance">
+            <p class="date">12/11/18</p> 
+            <p class="nbrSeance">2ème séance</p> 
+          </div>
+        </a>
+        <a href="#">
+          <div class="seance">
+            <p class="date">12/11/18</p> 
+            <p class="nbrSeance">2ème séance</p> 
+          </div>
+        </a>
+      </div>
+    </div>
+
   </div>
 </template>
 
